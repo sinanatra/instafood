@@ -23,9 +23,7 @@ const Home = {
         monthsDropdown.append($('<option></option>').attr('value', month).text(month));
       });
 
-      let monthVal = monthsDropdown.val()
-
-      let imgPath = `./posts/${yearVal}${monthVal}`
+      let imgPath = `./posts/${yearVal}`
       imageContainer.empty();
 
       images
