@@ -1,0 +1,17 @@
+/* src/style.css */
+body {
+  background-color: rgb(211, 211, 211);
+  color: black;
+  font-family: monospace;
+}
+#images {
+  vertical-align: top;
+}
+img {
+  vertical-align: top;
+  padding: .5rem;
+  max-width: 150px;
+  width: 100%;
+  mix-blend-mode: multiply;
+  object-fit: contain;
+}
